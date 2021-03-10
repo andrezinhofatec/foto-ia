@@ -49,5 +49,4 @@ function ListaPessoas(){
     </div>
   )
 }
-
 export default App

@@ -14,11 +14,18 @@
 
 button{
     font-size: 20px;
-    margin-top: 18px;
+    margin: 18px;
     padding: 20px;
     background: darkred;
     border-radius: 16px;
     cursor: pointer;
+}
+
+button:hover{
+    background: white;
+    color: red;
+    border: 1px solid red;
+    transform: scale(1.1);
 }
 
 img{
@@ -26,7 +33,13 @@ img{
     border-radius: 64px;
     margin: 5px;
 }
-.fotos{
+.linha{
     display: flex;
     flex-direction: row;
+}
+
+label, select{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
 }
